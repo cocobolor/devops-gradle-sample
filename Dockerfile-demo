@@ -2,6 +2,6 @@ FROM openjdk:11.0.16-jre
 
 WORKDIR /home
 
-COPY build/lib/*.jar /home
+COPY devops-gradle-demo/build/lib/*.jar /home
 
 ENTRYPOINT java -jar *.jar
