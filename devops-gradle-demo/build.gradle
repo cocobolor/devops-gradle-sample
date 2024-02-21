@@ -3,6 +3,3 @@ dependencies {
             'org.springframework.boot:spring-boot-starter-web',
     )
 }
-tasks.test {
-    useJUnitPlatform() // 使用JUnit 5平台进行测试执行
-}
